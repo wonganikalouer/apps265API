@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Apps265 API Home Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.css'>
+    <script src='main.js'></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <div class="bg-primary">
+    <h1>APPS265 API</h1>
+    <h4> A powerful and secure api!</h4>
+    </div>
+    <h5>List of Commands</h5>
+    <ol>
+        <a href="/fetch/a6b84e722d5583e0e651367c020e76b4f59f98a3/high_scores"><li>fetch</li></a>
+        <a href="#"><li>get</li></a>
+        <a href="#"><li>write</li></a>
+        <a href="/raw/a6b84e722d5583e0e651367c020e76b4f59f98a3/high_scores/SELECT * FROM {} WHERE _ID<2"><li>raw</li></a>
+        <a href="#"><li>update</li></a>
+    </ol>
+    <h4>List of Un allowed RAW execution</h4>
+    <ul>
+        <li>Manual Selection of Table</li>
+        <li>Delete, Truncate, Remove, querires</li>
+    </ul>
+</body>
+</html>
+<style>
+    body{
+        width: 100%;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .bg-primary{
+        width: 100%;
+        float: left;
+        background: springgreen;
+        color: rgba(13, 12, 14, 0.9);
+        padding:10px;
+    }
+
+    ol,ul{
+        width: 50%;
+        margin:0px;
+        margin-right: 50%;
+        /* padding: 0px; */
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    li{
+        font-size: large;
+    }
+</style>
